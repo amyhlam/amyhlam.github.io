@@ -247,7 +247,7 @@
 
 
 /* my projects */
-#myprojects {
+.myprojects-container {
   background-color: rgba(0, 0, 0, 0.412);
   border-radius: 10px;
   margin: 50px 100px 50px;
