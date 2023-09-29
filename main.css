@@ -133,7 +133,7 @@
 
   #home .content .myname {
     font-size: 18rem;
-    text-shadow: 2px 2px 4px rgb(26, 72, 132);
+    text-shadow: 2px 2px 5px rgb(26, 72, 132);
     display: flex;
     color: var(--secondary);
     letter-spacing: -0.8rem;
@@ -474,7 +474,7 @@
 
   .navbar li{
     margin-right: 0.4rem;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
   }
   .navbar li:hover{
     margin-right: 0.4rem;
@@ -506,7 +506,7 @@
   
   
   #aboutme {
-    height: 100vh;
+    height: 130vh;
   }
 
   #aboutme .content {
@@ -529,12 +529,13 @@
   width: 400px;
   margin: auto;
   padding: 30px;
+
   }
 
   .project span {
     display: block;
-    font-size: 2.4rem;
-    padding: 1rem;
+    font-size: 1.8rem;
+    padding: 0.3rem 2rem;
   }
 
   .project img {
