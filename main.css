@@ -525,11 +525,10 @@
   }
 
   .myprojects-container {
-  height: 80vh;
+  height: 70vh;
   width: 400px;
   margin: auto;
   padding: 30px;
-
   }
 
   .project span {
