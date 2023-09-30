@@ -435,7 +435,7 @@
 } */
 
 /* tablet */
-/* @media screen and (min-width:481px) and (max-width:767px){
+@media screen and (min-width:481px) and (max-width:768px){
   #home .content {
 		background: url("/images/silver.png");
 		background-size: 400px;
@@ -458,9 +458,25 @@
   }
 
   #myprojects {
-    height: 190vh
+    height: 150vh
   }
-} */
+
+  .myprojects-container {
+    width: 550px;
+    height: 120vh;
+    padding: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .project-container {
+    margin-top: -30px;
+  }
+
+  #myprojects .icon i{
+    margin-top: -170px;
+  }
+}
 
 /* phone */
 @media screen and (max-width:480px){
