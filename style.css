@@ -93,7 +93,7 @@ body {
     width: 500px;
     margin: 0 auto 2rem;
     flex-direction: column;
-    padding: 1rem 2rem 2rem 2rem;
+    padding: 1rem 2rem 3rem 2rem;
 }
 
 .profile-pic {
@@ -140,14 +140,14 @@ body {
 
 .footer {
     border-top: 1px solid rgba(0, 0, 0, 0.37);
-    margin: 2rem 5rem;
+    margin: 2rem 4rem;
     padding-top: 2rem;
 }
 
 
 @media (max-width: 574px) {
     header {
-        padding: 0 0.5rem;
+        padding: 0 1rem;
     }
     .nav-pills {
         --bs-nav-link-padding-x: 0.45rem;
@@ -157,10 +157,10 @@ body {
         text-shadow: 3px 3px 5px rgb(0, 0, 0);
     }
     .footer {
-        margin: 0.5rem;
+        margin: 1rem;
     }
     .aboutme-container {
-        width: 400px;
+        width: 350px;
     }
     .profile-pic {
         height: 200px;
