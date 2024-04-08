@@ -13,6 +13,7 @@ body {
 .nav-item > a {
     color: black;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .header {
@@ -48,11 +49,6 @@ body {
         typing 3s steps(33),
         cursor .4s step-end infinite alternate;
 }
-
-
-  
-
-
 
   
   /* The typing effect */
@@ -109,15 +105,9 @@ body {
 
 
 /* my projects */
-/* #myprojects {
-    border: 2px solid blue;
-} */
 .my-projects-container {
-    /* border: 2px solid red; */
     padding: 0 4rem;    
-    /* height: 100vh; */
     justify-content: center;
-    /* border: 2px solid red; */
 }
 
 .card {
@@ -134,7 +124,6 @@ body {
     height: 200px;
 }
 .skill-container {
-    /* border: 2px solid black; */
     flex-wrap: wrap;
 }
 
@@ -154,11 +143,11 @@ body {
 
 
 @media (max-width: 574px) {
-    body {
-        background-color: rgb(155, 138, 115);
-    }
     header {
         padding: 0 0.5rem;
+    }
+    .nav-pills {
+        --bs-nav-link-padding-x: 0.45rem;
     }
     .name {
         line-height: 8rem;
