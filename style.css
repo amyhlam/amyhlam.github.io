@@ -23,13 +23,16 @@ body {
 .title {
     text-align: center;
     margin: 2rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 /* main */
 .name {
     font-size: 10rem;
     letter-spacing: -0.8rem;
-    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
     color: white;
 }
 
@@ -150,14 +153,18 @@ body {
         --bs-nav-link-padding-x: 0.45rem;
     }
     .name {
-        line-height: 8rem;
-        text-shadow: 1px 1px 2.5px rgb(0, 0, 0);
+        line-height: 6.45rem;
+        text-shadow: 3px 3px 5px rgb(0, 0, 0);
     }
     .footer {
         margin: 0.5rem;
     }
     .aboutme-container {
         width: 400px;
+    }
+    .profile-pic {
+        height: 200px;
+        width: 200px;
     }
     .my-projects-container {
         margin: 0;
