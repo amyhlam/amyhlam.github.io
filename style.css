@@ -151,6 +151,7 @@ body {
     }
     .name {
         line-height: 8rem;
+        text-shadow: 1px 1px 2.5px rgb(0, 0, 0);
     }
     .footer {
         margin: 0.5rem;
