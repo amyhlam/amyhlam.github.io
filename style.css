@@ -106,6 +106,12 @@ body {
     box-shadow: 8px 6px 5px rgba(0, 0, 0, 0.205);
 }
 
+.email-btn {
+    color: black;
+    text-decoration: none;
+    width: 2rem
+}
+
 
 /* my projects */
 .my-projects-container {
@@ -142,6 +148,10 @@ body {
     border-top: 1px solid rgba(0, 0, 0, 0.37);
     margin: 2rem 4rem;
     padding-top: 2rem;
+}
+
+.heart {
+    font-size: 0.8rem;
 }
 
 
