@@ -26,21 +26,31 @@ body {
 
 .title {
     text-align: center;
+    font-size: 3rem;
     margin: 2rem;
     color: white;
     font-weight: bold;
     text-transform: uppercase;
 }
 
+#home, #aboutme {
+    height: 100vh;
+}
+
+
+
 /* main */
+.home-container > h4 {
+    /* border: 2px solid red; */
+    padding-top: 6rem;
+}
+
 .name {
     font-size: 10rem;
     letter-spacing: -0.8rem;
     text-shadow: 3px 3px 5px rgb(0, 0, 0);
     color: white;
 }
-
-
 
 .typewriter-container { display: inline-block; padding: 2rem 0}
 
@@ -95,12 +105,12 @@ body {
 
 /* about me */
 #aboutme {
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 .aboutme-container {
     border: 4px solid rgb(188, 163, 128);
     width: 500px;
-    margin: 0 auto 2rem;
+    margin: 3rem auto;
     flex-direction: column;
     padding: 1rem 2rem 3rem 2rem;
 }
@@ -124,8 +134,9 @@ body {
 
 /* my projects */
 .my-projects-container {
-    padding: 0 4rem;    
+    /* padding: 0 4rem;     */
     justify-content: center;
+    /* border: 2px solid red; */
 }
 
 .card {
@@ -169,7 +180,7 @@ body {
 }
 
 .projects-btn-container {
-    margin: 2rem 0;
+    margin: 2rem 0 5rem;
     display:flex;
 }
 .projects-btn {
