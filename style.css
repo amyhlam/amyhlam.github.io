@@ -33,9 +33,9 @@ body {
     text-transform: uppercase;
 }
 
-#home, #aboutme {
+/* #home, #aboutme {
     min-height: 100vh;
-}
+} */
 
 
 /* main */
@@ -204,7 +204,11 @@ a:hover, .btn:hover {
     cursor: crosshair;
 }
 
-
+@media (min-width: 1100px) {
+    #home, #aboutme {
+        min-height: 100vh;
+    }
+}
 @media (max-width: 574px) {
     header {
         padding: 0 1rem;
