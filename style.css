@@ -34,7 +34,7 @@ body {
 }
 
 #home, #aboutme {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
@@ -229,7 +229,7 @@ a:hover, .btn:hover {
     .my-projects-container {
         margin: 0;
     }
-    #home {
+    /* #home {
         height: 50vh;
     } 
     #aboutme {
@@ -238,5 +238,5 @@ a:hover, .btn:hover {
     }
     .home-container > h4 {
         padding-top: 0;
-    }
+    } */
 }
