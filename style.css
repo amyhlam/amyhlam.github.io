@@ -229,4 +229,14 @@ a:hover, .btn:hover {
     .my-projects-container {
         margin: 0;
     }
+    #home {
+        height: 50vh;
+    } 
+    #aboutme {
+        height: 80vh;
+        padding-top: 0;
+    }
+    .home-container > h4 {
+        padding-top: 0;
+    }
 }
