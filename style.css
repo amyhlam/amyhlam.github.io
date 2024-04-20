@@ -32,6 +32,7 @@ body {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgb(110, 96, 76);
 }
 
 /* main */
@@ -43,7 +44,7 @@ body {
 .name {
     font-size: 10rem;
     letter-spacing: -0.8rem;
-    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    text-shadow: 6px 4px 5px rgb(74, 65, 52);
     color: white;
 }
 
