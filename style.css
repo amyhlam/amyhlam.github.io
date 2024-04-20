@@ -5,9 +5,8 @@
     box-sizing: border-box;
 }
 body {
-    /* background-color: rgb(202, 180, 149); */
-    background-image: url("./img/bg3.jpg");
-    background-size: cover;
+    background-image: url("./img/bg.jpg");
+    background-size: auto;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
