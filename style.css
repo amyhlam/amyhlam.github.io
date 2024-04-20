@@ -89,7 +89,7 @@ body {
 }
 
 .socials-list > li > a:hover {
-    color: rgb(179, 158, 126);
+    color: rgba(182, 159, 126, 0.703);
 }
 
 
